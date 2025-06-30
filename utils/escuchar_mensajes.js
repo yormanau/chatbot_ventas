@@ -1,5 +1,5 @@
 
-const waitForBaileysInstance = async (provider, maxAttempts = 10, delay = 500) => {
+const waitForBaileysInstance = async (provider, maxAttempts = 1000, delay = 500) => {
     for (let attempt = 1; attempt <= maxAttempts; attempt++) {
         const wa = await provider.getInstance();
         if (wa && wa.ev) return wa;
