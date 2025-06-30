@@ -1,0 +1,93 @@
+[
+  {
+    "ref": "c97f7d56-d480-460e-bbe8-93cc0109c6ba",
+    "keyword": "2ddd0f39e8f10d2786199c4c0d7f6da4",
+    "answer": "hola",
+    "options": {},
+    "from": "573108063653",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_64363e10-be3c-41a0-83a4-ace44ae65fca",
+    "keyword": "key_5cad08d3-59ec-4886-9084-001fd992af24",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "262c493a030b0c4fdfa33974afcf328b",
+    "from": "573108063653"
+  },
+  {
+    "ref": "ans_702c9340-478e-4849-b064-0a0cb1af6120",
+    "keyword": "key_b57c7c65-5384-452a-820e-eef3512a399e",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "990f797190c33855b3324e9fc02a269e",
+    "from": "573108063653"
+  },
+  {
+    "ref": "29b2e6b7-e584-472d-b745-f288e92b483e",
+    "keyword": null,
+    "answer": "Hola 👋, *Yorman Aular*  bienvenido(a) a *@LaCeldaDelMonje*, \r\ndónde tú compra es un secreto de confesión. 🤫",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573108063653",
+    "refSerialize": "865b6fce8e0561181ba86c4c139833dc"
+  },
+  {
+    "ref": "ans_81a17da1-a768-49fc-a94f-e39bcd115148",
+    "keyword": "key_3d73951b-0410-4cd3-ab31-812bff357477",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "5686e83fa28d56a6025e8d0825dba00d",
+    "from": "573108063653"
+  },
+  {
+    "ref": "9a83748e-9d4c-4dea-8a84-7e9fce5efde8",
+    "keyword": null,
+    "answer": "👤 Te atenderá nuestro Abad *El Monje*, escríbele tus inquietudes.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573108063653",
+    "refSerialize": "4d3e2d9e8b0d82e577a79efda871af88"
+  }
+]
