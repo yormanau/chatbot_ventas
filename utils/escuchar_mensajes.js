@@ -10,11 +10,17 @@ const waitForBaileysInstance = async (provider, maxAttempts = 10000, delay = 500
     throw new Error('❌ No se pudo obtener la instancia de Baileys después de varios intentos');
 };*/
 const waitForBaileysInstance = async (provider, delay = 500) => {
+    let yaMostroLog = false; // Para asegurarnos de mostrar el log solo una vez
+
     while (true) {
         const wa = await provider.getInstance();
         if (wa && wa.ev) return wa;
 
-        console.log('⏳ Esperando instancia de Baileys...');
+        if (!yaMostroLog) {
+            console.log('⏳ Esperando instancia de Baileys...');
+            yaMostroLog = true;
+        }
+
         await new Promise(res => setTimeout(res, delay));
     }
 };
