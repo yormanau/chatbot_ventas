@@ -1,0 +1,155 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573108063653@s.whatsapp.net',
+    fromMe: false,
+    id: '3F248ABE99F85FDDFD26',
+    participant: undefined
+  },
+  messageTimestamp: 1751300123,
+  pushName: 'Yorman Aular',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '573108063653'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6de9afd1-4827-4ccc-8bdf-eab4a6e3172b',
+  keyword: 'key_fa33f492-5b23-4929-8bf0-8bc48bd0b43c',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'c369cb3c8820af8a2e6888d27446f44b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573108063653@s.whatsapp.net',
+    fromMe: false,
+    id: '3FD9331A3B69F6EF9EBA',
+    participant: undefined
+  },
+  messageTimestamp: 1751300129,
+  pushName: 'Yorman Aular',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '19', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '19',
+  from: '573108063653'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_47a7d988-fbe3-4d33-8eea-a393ca80793e',
+  keyword: 'ans_df281e03-dc00-42c9-8079-9bdcd9eff943',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'c19556f187f99c23c28e55f7ad88aacd'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573108063653@s.whatsapp.net',
+    fromMe: false,
+    id: '3FBC0817CB2591D9A08B',
+    participant: undefined
+  },
+  messageTimestamp: 1751300135,
+  pushName: 'Yorman Aular',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'Bogota', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Bogota',
+  from: '573108063653'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ddce049e-47c7-4851-be12-92ef14e0df87',
+  keyword: 'ans_47a7d988-fbe3-4d33-8eea-a393ca80793e',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5d375666b9b558e010ba9ec9ad14d8d5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573108063653@s.whatsapp.net',
+    fromMe: false,
+    id: '3FE08D618CA749CDC4D3',
+    participant: undefined
+  },
+  messageTimestamp: 1751300142,
+  pushName: 'Yorman Aular',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Yorman Aular',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Yorman Aular',
+  from: '573108063653'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6ed2bcc5-d369-4419-8ac4-948decc99ca9',
+  keyword: 'ans_ddce049e-47c7-4851-be12-92ef14e0df87',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd2fa32a2eac56633568471ef305851de'
+}

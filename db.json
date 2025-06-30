@@ -1,0 +1,232 @@
+[
+  {
+    "ref": "072affb8-d4a4-49bb-974b-a5659e16fd8a",
+    "keyword": "79e7fc16f7fb85373fd25a99390f44c0",
+    "answer": "hola",
+    "options": {},
+    "from": "573108063653",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_6de9afd1-4827-4ccc-8bdf-eab4a6e3172b",
+    "keyword": "key_fa33f492-5b23-4929-8bf0-8bc48bd0b43c",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c369cb3c8820af8a2e6888d27446f44b",
+    "from": "573108063653"
+  },
+  {
+    "ref": "a1498000-d016-4a48-92bd-888b8eae62c8",
+    "keyword": null,
+    "answer": "🔄 *¡Hijo mío, hemos actualizado nuestro sistema!*\r\n\r\nDisfruta una mejor experiencia orgásmica con mejoras y novedades en nuestras conexiones digitales.\r\n\r\n*¡Gracias por tu confianza!* 😊\r\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573108063653",
+    "refSerialize": "6c59929e4d00e8565c8ebabf6052939a"
+  },
+  {
+    "ref": "ans_6b5f6d31-7157-40de-ac7d-f6775c4baafd",
+    "keyword": "key_71c841f8-6379-457b-b9ed-a785da9f6af3",
+    "answer": "👋 No estás registrado aún como nuestro discípulo(a).\r\n\r\nPara continuar, compártenos unos datos básicos. 🙌\n\nIndique su edad por favor",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "a7561d47dec0268fd68bf0ab02426854",
+    "from": "573108063653"
+  },
+  {
+    "ref": "ans_df281e03-dc00-42c9-8079-9bdcd9eff943",
+    "keyword": "ans_6b5f6d31-7157-40de-ac7d-f6775c4baafd",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "a52bbc1e5acb135b7a95b9729e20203c",
+    "from": "573108063653"
+  },
+  {
+    "ref": "49cb3a60-ed2f-4a2d-a09a-e99907a99fd8",
+    "keyword": "a52bbc1e5acb135b7a95b9729e20203c",
+    "answer": "19",
+    "options": {},
+    "from": "573108063653",
+    "refSerialize": "38bda9e54ace3f3d8d04e001e095876a"
+  },
+  {
+    "ref": "521036b1-89e3-43d9-b3e3-dc67775e2523",
+    "keyword": null,
+    "answer": "¿De qué ciudad nos escribes?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573108063653",
+    "refSerialize": "de20134b46ba59b0be2e9302d6b11302"
+  },
+  {
+    "ref": "ans_47a7d988-fbe3-4d33-8eea-a393ca80793e",
+    "keyword": "ans_df281e03-dc00-42c9-8079-9bdcd9eff943",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c19556f187f99c23c28e55f7ad88aacd",
+    "from": "573108063653"
+  },
+  {
+    "ref": "f969a72f-25e4-4118-b11f-1d94f6fb0d41",
+    "keyword": "c19556f187f99c23c28e55f7ad88aacd",
+    "answer": "Bogota",
+    "options": {},
+    "from": "573108063653",
+    "refSerialize": "52b981f3f01aabd1466aa679e4fbf911"
+  },
+  {
+    "ref": "58343cdc-1181-45be-aa22-49db8f05a5bb",
+    "keyword": null,
+    "answer": "Indique su nombre y apellido",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573108063653",
+    "refSerialize": "e36a8c70c6e5f6aa8fd443621f78a747"
+  },
+  {
+    "ref": "ans_ddce049e-47c7-4851-be12-92ef14e0df87",
+    "keyword": "ans_47a7d988-fbe3-4d33-8eea-a393ca80793e",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "5d375666b9b558e010ba9ec9ad14d8d5",
+    "from": "573108063653"
+  },
+  {
+    "ref": "33d51f8f-a462-4a7a-b070-9c7357896a6d",
+    "keyword": "5d375666b9b558e010ba9ec9ad14d8d5",
+    "answer": "Yorman Aular",
+    "options": {},
+    "from": "573108063653",
+    "refSerialize": "1ecf82a8068e59c81f3cecdfe31325b0"
+  },
+  {
+    "ref": "ans_6ed2bcc5-d369-4419-8ac4-948decc99ca9",
+    "keyword": "ans_ddce049e-47c7-4851-be12-92ef14e0df87",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d2fa32a2eac56633568471ef305851de",
+    "from": "573108063653"
+  },
+  {
+    "ref": "735936c6-6208-4d61-a6d1-f008ad3082c0",
+    "keyword": null,
+    "answer": "🔔 ¡Ahora sí! *Yorman Aular*\n Ya formas parte de los discípulos del monasterio erótico *La Celda Del Monje* 🧘‍♂️💋\n\nIndícanos en qué te podemos ayudar 😏",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573108063653",
+    "refSerialize": "30edf88a15795e858dcc82679d89e8d2"
+  },
+  {
+    "ref": "ans_7c109f78-33fe-48ed-871f-0d178caa92e8",
+    "keyword": "key_a3f2ba29-c353-4d6e-bc05-861b830d55d1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9c3f9b732faab3bc80a5e871a57a2f09",
+    "from": "573108063653"
+  },
+  {
+    "ref": "1add6b5d-1191-4fc3-afc2-cf7036f35793",
+    "keyword": null,
+    "answer": "👤 Te atenderá nuestro Abad *El Monje*, escríbele tus inquietudes.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573108063653",
+    "refSerialize": "4d3e2d9e8b0d82e577a79efda871af88"
+  }
+]
