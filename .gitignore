@@ -4,3 +4,4 @@ db.json
 test.js
 *.log
 bot_sessions/
+*.json

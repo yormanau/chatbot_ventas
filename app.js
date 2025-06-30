@@ -5,7 +5,9 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const adapterProvider = createProvider(BaileysProvider)
 const MockAdapter = require('@bot-whatsapp/database/json')
 const escuchar_mensajes = require('./utils/escuchar_mensajes.js')
+const { syncData } = require('./utils/sheets.js')
 
+syncData()
 
 // Importar flujos
 const flujo_inicio = require('./Flujos/01_inicio.js')

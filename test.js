@@ -1,12 +1,6 @@
-const { createProvider } = require('@bot-whatsapp/bot')
+const fs = require("fs");
 
-const BaileysProvider = require('@bot-whatsapp/provider/baileys')
-const adapterProvider = createProvider(BaileysProvider)
+const json = fs.readFileSync("datos-sql-sheets-f08c11cb35b7.json", "utf8");
+const jsonEscapado = JSON.stringify(JSON.parse(json)); // Escapa todo
 
-console.log(Object.getOwnPropertyNames(adapterProvider));
-console.log(Object.getOwnPropertyNames(Object.getPrototypeOf(adapterProvider)));
-console.log(adapterProvider.sendMessage?.toString());
-console.log('Propiedades de adapterProvider:');
-console.log(Object.getOwnPropertyNames(adapterProvider));
-console.log('--- Métodos heredados de su prototipo ---');
-console.log(Object.getOwnPropertyNames(Object.getPrototypeOf(adapterProvider)));
+console.log(jsonEscapado);

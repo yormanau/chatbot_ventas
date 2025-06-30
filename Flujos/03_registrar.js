@@ -20,7 +20,7 @@ const flujo_registrar = addKeyword(EVENTS.ACTION)
             if (edad !== null && edad >= 18 && edad < 120) {
                 await state.update({edad: parseInt(edad)})
                 await new Promise(resolve => setTimeout(resolve, 3000))
-                return await flowDynamic(`¿De qué ciudad nos escribes?`)
+                return await flowDynamic(`Ahora dinos ¿De qué ciudad nos escribes?`)
             } else if (edad < 18) {
                 await new Promise(resolve => setTimeout(resolve, 3000))
                 return endFlow(Mensaje('menor_edad.txt'))
@@ -36,7 +36,7 @@ const flujo_registrar = addKeyword(EVENTS.ACTION)
             const ciudad = ctx.body.trim().toLowerCase();
             await state.update({ciudad: ciudad})
             await new Promise(resolve => setTimeout(resolve, 3000))
-            return await flowDynamic('Indique su nombre y apellido')
+            return await flowDynamic('Indícanos tú nombre y apellido.')
         }
     )
     // Solicitar nombres
