@@ -37,7 +37,7 @@ const escuchar_mensajes = async (provider, bot) => {
             const esDelBot = mensaje?.key?.fromMe;
         
             if (!texto) return;
-            const frase_clave = 'Nos alegra mucho haberte ayudado a llegar al clímax que tanto deseas. Damos por finalizada la conversación.'
+            const frase_clave = 'Nos alegra mucho haberte ayudado a llegar al clímax que tanto deseas. 😊 Damos por finalizada la conversación 👋, te esperamos nuevamente'
     
             if (esDelBot && texto === frase_clave) {
                 console.log('Activado')

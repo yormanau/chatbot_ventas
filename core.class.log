@@ -2,10 +2,10 @@
   key: {
     remoteJid: '573108063653@s.whatsapp.net',
     fromMe: false,
-    id: '3FF7B759C8005073017F',
+    id: '3FAD96FD2DA8F0D7DF66',
     participant: undefined
   },
-  messageTimestamp: 1751304181,
+  messageTimestamp: 1751308177,
   pushName: 'Yorman Aular',
   broadcast: false,
   message: Message {
@@ -19,8 +19,8 @@
   from: '573108063653'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_bdf88da2-0f67-48a1-8b57-f69e944e8022',
-  keyword: 'key_216f006f-755a-4739-b717-e4956d59db36',
+  ref: 'ans_62b1286e-c72e-4677-bdcb-e4d311a743cb',
+  keyword: 'key_79bf0613-7764-4504-862b-146803362feb',
   answer: '__call_action__',
   options: {
     media: null,
@@ -34,5 +34,46 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'dfdc3b301e53f1947e75e77010a003c6'
+  refSerialize: '88c6f404631b527af40d438d5fc2ebcc'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573108063653@s.whatsapp.net',
+    fromMe: false,
+    id: '3F8289D93E0E79388A4E',
+    participant: undefined
+  },
+  messageTimestamp: 1751308186,
+  pushName: 'Yorman Aular',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Nos alegra mucho haberte ayudado a llegar al clímax que tanto deseas. 😊 Damos por finalizada la conversación 👋, te esperamos nuevamente',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Nos alegra mucho haberte ayudado a llegar al clímax que tanto deseas. 😊 Damos por finalizada la conversación 👋, te esperamos nuevamente',
+  from: '573108063653'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_62b1286e-c72e-4677-bdcb-e4d311a743cb',
+  keyword: 'key_79bf0613-7764-4504-862b-146803362feb',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '88c6f404631b527af40d438d5fc2ebcc'
 }

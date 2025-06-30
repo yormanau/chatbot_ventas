@@ -5,21 +5,29 @@ const { insertar_cliente } = require('../utils/mysql/insertar_cliente.js')
 const { mayuscula } = require('../utils/strings/mayuscula.js')
 const { validar_nombres } = require('../utils/strings/validar_nombres.js')
 const  flujo_humano  = require('./humano.js')
+const { es_numero, extraer_numero } = require('../utils/strings/validar_numero.js')
 
 const flujo_registrar = addKeyword(EVENTS.ACTION)
     .addAnswer(`${Mensaje('no_registrado.txt')}\n\nIndique su edad por favor`)
 
     // Solicitar edad
     .addAction({capture:true}, 
-        async (ctx, { state, flowDynamic, endFlow }) => {
-            const edad = ctx.body.trim().toLowerCase();
-            if (edad >= 18) {
+        async (ctx, { state, flowDynamic, endFlow, fallBack }) => {
+            const edad_str = ctx.body.trim().toLowerCase();
+            const edad = extraer_numero(edad_str)
+            
+
+            if (edad !== null && edad >= 18 && edad < 120) {
                 await state.update({edad: parseInt(edad)})
                 await new Promise(resolve => setTimeout(resolve, 3000))
                 return await flowDynamic(`¿De qué ciudad nos escribes?`)
+            } else if (edad < 18) {
+                await new Promise(resolve => setTimeout(resolve, 3000))
+                return endFlow(Mensaje('menor_edad.txt'))
+            } else {
+                return fallBack('Escriba una edad válida')
             }
-            await new Promise(resolve => setTimeout(resolve, 3000))
-            return endFlow(Mensaje('menor_edad.txt'))
+            
         }
     )
     // Solicitar ciudad
