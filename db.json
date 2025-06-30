@@ -1,15 +1,15 @@
 [
   {
-    "ref": "72077e46-e29e-45a3-98ea-b53fc825a2a2",
-    "keyword": "f5563aaa3962c00624e9d8b0a295a4ed",
+    "ref": "da378764-73b5-4164-971f-5aa1e1009422",
+    "keyword": "f4dc17b1d7ac60fe507869dc06e1d2ad",
     "answer": "hola",
     "options": {},
     "from": "573108063653",
     "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_5da515f1-43fe-4735-b6e7-0081341e6d45",
-    "keyword": "key_bf343095-4f0f-4303-b6de-4de1d1483beb",
+    "ref": "ans_bdf88da2-0f67-48a1-8b57-f69e944e8022",
+    "keyword": "key_216f006f-755a-4739-b717-e4956d59db36",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -23,12 +23,12 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "0a13ae3fcd0b2bb85833ad8b8d40f573",
+    "refSerialize": "dfdc3b301e53f1947e75e77010a003c6",
     "from": "573108063653"
   },
   {
-    "ref": "ans_ca2c9e35-442c-4437-ae18-72d60033179b",
-    "keyword": "key_8a5b3827-7277-4501-ae71-7465fb8e131f",
+    "ref": "ans_b4229599-8746-4f25-af28-b3479c136eb6",
+    "keyword": "key_7ffb7cd8-36c4-425a-bed8-eb6ae241abeb",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -42,11 +42,11 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "c0a95b62829a5732b570bf7e3874cce6",
+    "refSerialize": "581685cb55da115d56b7d870149a31cc",
     "from": "573108063653"
   },
   {
-    "ref": "d6d9efed-cd17-474d-8e7b-5c7534b47cc2",
+    "ref": "b156bd79-01ab-442c-a978-902c794f50b3",
     "keyword": null,
     "answer": "Hola 👋, *Yorman Aular*  bienvenido(a) a *@LaCeldaDelMonje*, \r\ndónde tú compra es un secreto de confesión. 🤫",
     "options": {
@@ -59,8 +59,8 @@
     "refSerialize": "865b6fce8e0561181ba86c4c139833dc"
   },
   {
-    "ref": "ans_c1833c99-004c-4011-acc1-f2b6c1adf314",
-    "keyword": "key_5d38374a-ca2f-497e-a2cc-d6ed060ae92a",
+    "ref": "ans_13160ac6-d16c-4326-8677-36a9363892dc",
+    "keyword": "key_3ada543e-0419-4a99-b821-f5d9ba276746",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -74,11 +74,11 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "9a90ea2dce3d3148ab7a06e6f5bdf881",
+    "refSerialize": "e20cde2f6f64540a2dae3ffa67b463db",
     "from": "573108063653"
   },
   {
-    "ref": "e816111e-cd81-4c44-bf51-00bcee8ef919",
+    "ref": "2746478c-8cde-4866-aeb5-aeaba14a9a56",
     "keyword": null,
     "answer": "👤 Te atenderá nuestro Abad *El Monje*, escríbele tus inquietudes.",
     "options": {
@@ -89,110 +89,5 @@
     },
     "from": "573108063653",
     "refSerialize": "4d3e2d9e8b0d82e577a79efda871af88"
-  },
-  {
-    "ref": "6bdfcf5c-5143-4bb1-9e00-092506d5f266",
-    "keyword": "9a90ea2dce3d3148ab7a06e6f5bdf881",
-    "answer": "gracias necesito equis vaina",
-    "options": {},
-    "from": "573108063653",
-    "refSerialize": "bae393e09586a46868bf709f1c6798e5"
-  },
-  {
-    "ref": "ans_5da515f1-43fe-4735-b6e7-0081341e6d45",
-    "keyword": "key_bf343095-4f0f-4303-b6de-4de1d1483beb",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "0a13ae3fcd0b2bb85833ad8b8d40f573",
-    "from": "573108063653"
-  },
-  {
-    "ref": "41bc7f60-e99b-4fea-b49a-7da2f1394611",
-    "keyword": "0a13ae3fcd0b2bb85833ad8b8d40f573",
-    "answer": "hola",
-    "options": {},
-    "from": "573108063653",
-    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
-  },
-  {
-    "ref": "ans_5da515f1-43fe-4735-b6e7-0081341e6d45",
-    "keyword": "key_bf343095-4f0f-4303-b6de-4de1d1483beb",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "0a13ae3fcd0b2bb85833ad8b8d40f573",
-    "from": "573108063653"
-  },
-  {
-    "ref": "ans_ca2c9e35-442c-4437-ae18-72d60033179b",
-    "keyword": "key_8a5b3827-7277-4501-ae71-7465fb8e131f",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "c0a95b62829a5732b570bf7e3874cce6",
-    "from": "573108063653"
-  },
-  {
-    "ref": "352b6cb2-3aa5-4467-8fde-09cd537715f1",
-    "keyword": null,
-    "answer": "Hola 👋, *Yorman Aular*  bienvenido(a) a *@LaCeldaDelMonje*, \r\ndónde tú compra es un secreto de confesión. 🤫",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573108063653",
-    "refSerialize": "865b6fce8e0561181ba86c4c139833dc"
-  },
-  {
-    "ref": "ans_c1833c99-004c-4011-acc1-f2b6c1adf314",
-    "keyword": "key_5d38374a-ca2f-497e-a2cc-d6ed060ae92a",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "9a90ea2dce3d3148ab7a06e6f5bdf881",
-    "from": "573108063653"
   }
 ]

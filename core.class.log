@@ -2,10 +2,10 @@
   key: {
     remoteJid: '573108063653@s.whatsapp.net',
     fromMe: false,
-    id: '3FA3457BD74FBCDAABEF',
+    id: '3FF7B759C8005073017F',
     participant: undefined
   },
-  messageTimestamp: 1751300738,
+  messageTimestamp: 1751304181,
   pushName: 'Yorman Aular',
   broadcast: false,
   message: Message {
@@ -19,8 +19,8 @@
   from: '573108063653'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5da515f1-43fe-4735-b6e7-0081341e6d45',
-  keyword: 'key_bf343095-4f0f-4303-b6de-4de1d1483beb',
+  ref: 'ans_bdf88da2-0f67-48a1-8b57-f69e944e8022',
+  keyword: 'key_216f006f-755a-4739-b717-e4956d59db36',
   answer: '__call_action__',
   options: {
     media: null,
@@ -34,66 +34,5 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '0a13ae3fcd0b2bb85833ad8b8d40f573'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573108063653@s.whatsapp.net',
-    fromMe: false,
-    id: '3FA7938A7290F6E4E551',
-    participant: undefined
-  },
-  messageTimestamp: 1751300751,
-  pushName: 'Yorman Aular',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'gracias necesito equis vaina',
-      contextInfo: [ContextInfo]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'gracias necesito equis vaina',
-  from: '573108063653'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5da515f1-43fe-4735-b6e7-0081341e6d45',
-  keyword: 'key_bf343095-4f0f-4303-b6de-4de1d1483beb',
-  answer: '__call_action__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '0a13ae3fcd0b2bb85833ad8b8d40f573'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573108063653@s.whatsapp.net',
-    fromMe: false,
-    id: '3FD02E0586B24B0CAEC7',
-    participant: undefined
-  },
-  messageTimestamp: 1751300765,
-  pushName: 'Yorman Aular',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'hola',
-  from: '573108063653'
+  refSerialize: 'dfdc3b301e53f1947e75e77010a003c6'
 }

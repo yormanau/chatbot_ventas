@@ -1,4 +1,4 @@
-
+/*
 const waitForBaileysInstance = async (provider, maxAttempts = 10000, delay = 500) => {
     for (let attempt = 1; attempt <= maxAttempts; attempt++) {
         const wa = await provider.getInstance();
@@ -8,7 +8,17 @@ const waitForBaileysInstance = async (provider, maxAttempts = 10000, delay = 500
         await new Promise(res => setTimeout(res, delay));
     }
     throw new Error('❌ No se pudo obtener la instancia de Baileys después de varios intentos');
+};*/
+const waitForBaileysInstance = async (provider, delay = 500) => {
+    while (true) {
+        const wa = await provider.getInstance();
+        if (wa && wa.ev) return wa;
+
+        console.log('⏳ Esperando instancia de Baileys...');
+        await new Promise(res => setTimeout(res, delay));
+    }
 };
+
 const escuchar_mensajes = async (provider, bot) => {
     try {
         const wa = await waitForBaileysInstance(provider);
