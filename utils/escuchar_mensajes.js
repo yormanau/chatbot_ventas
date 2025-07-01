@@ -33,7 +33,25 @@ const escuchar_mensajes = async (provider, bot) => {
             const numero = mensaje?.key?.remoteJid;
             const texto = mensaje?.message?.conversation || mensaje?.message?.extendedTextMessage?.text;
             const esDelBot = mensaje?.key?.fromMe;
-        
+
+            /*
+            if (texto?.toLowerCase().includes('menu')) {
+                console.log('MENÚ DETECTADO');
+                try {
+                    await wa.sendMessage(numero, {
+                        text: '📦 ¿Qué deseas hacer?',
+                        footer: 'Selecciona una opción',
+                        templateButtons: [
+                            { index: 1, quickReplyButton: { displayText: '🛒 Ver productos', id: 'ver_productos' } },
+                            { index: 2, quickReplyButton: { displayText: '💬 Hablar con asesor', id: 'hablar_asesor' } },
+                            { index: 3, quickReplyButton: { displayText: '📍 Ver ubicación', id: 'ver_ubicacion' } }
+                        ]
+                    }, { quoted: mensaje });
+                } catch (error) {
+                    console.error('❌ Error enviando menú:', error);
+                }
+            }
+            */
             //if (!texto) return;
             if (!texto || typeof texto !== 'string') return;
             // ✅ Reaccionar si el usuario dice "gracias"

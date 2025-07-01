@@ -15,7 +15,7 @@ const flujo_bienvenida = addKeyword(EVENTS.ACTION)
         await wa.sendPresenceUpdate('composing', numero);
         await new Promise(resolve => setTimeout(resolve, duracion_escritura))
         const info = await state.getMyState()
-        await new Promise(resolve => setTimeout(resolve, 3000))
+       
         await flowDynamic(`Hola 👋, *${info.nombres_usuario}* ${Mensaje('bienvenida.txt')}`)
         return gotoFlow(flujo_humano)
     })
