@@ -34,7 +34,9 @@ const escuchar_mensajes = async (provider, bot) => {
             const texto = mensaje?.message?.conversation || mensaje?.message?.extendedTextMessage?.text;
             const esDelBot = mensaje?.key?.fromMe;
         
-            if (!texto) return;
+            //if (!texto) return;
+            if (!texto || typeof texto !== 'string') return;
+
             const frase_clave = 'Nos alegra mucho haberte ayudado a llegar al clímax que tanto deseas. 😊 Damos por finalizada la conversación 👋, te esperamos nuevamente'
     
             if (esDelBot && texto === frase_clave) {
