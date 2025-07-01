@@ -2,25 +2,25 @@
   key: {
     remoteJid: '573108063653@s.whatsapp.net',
     fromMe: false,
-    id: '3F9C80F52503D0AC2D78',
+    id: '3F063EB00A09E2F467C0',
     participant: undefined
   },
-  messageTimestamp: 1751398594,
+  messageTimestamp: 1751400035,
   pushName: 'Yorman Aular',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: 'Hola', contextInfo: [ContextInfo] },
+    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hola',
+  body: 'hola',
   from: '573108063653'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e3983065-3db4-4cdd-a1ad-7d2b1197c57f',
-  keyword: 'key_25f6750e-4400-4e53-9790-e5c39365c2ed',
+  ref: 'ans_24b7b358-1f63-4c98-bd07-719b9c8a3e30',
+  keyword: 'key_14686d2e-e977-4a6b-9910-16319bd666e5',
   answer: '__call_action__',
   options: {
     media: null,
@@ -34,122 +34,5 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '997c4db31f4098f5693859d022745482'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573108063653@s.whatsapp.net',
-    fromMe: false,
-    id: '3F25280CADDF5114B275',
-    participant: undefined
-  },
-  messageTimestamp: 1751398615,
-  pushName: 'Yorman Aular',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: '23', contextInfo: [ContextInfo] },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '23',
-  from: '573108063653'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_05379124-6290-47d0-8be2-b169f609a031',
-  keyword: 'ans_3b7bbec3-dfd7-487a-a4a0-06ada0307923',
-  answer: '__capture_only_intended__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'b4d8420a8efa5e76d5fc444dcd011c04'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573108063653@s.whatsapp.net',
-    fromMe: false,
-    id: '3F2325CBA02F042E3757',
-    participant: undefined
-  },
-  messageTimestamp: 1751398627,
-  pushName: 'Yorman Aular',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: 'bogota', contextInfo: [ContextInfo] },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'bogota',
-  from: '573108063653'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ec105f62-13e2-4a72-8677-36ec7b6cb549',
-  keyword: 'ans_05379124-6290-47d0-8be2-b169f609a031',
-  answer: '__capture_only_intended__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '3ebf9593be249969e0382e8419553ca8'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573108063653@s.whatsapp.net',
-    fromMe: false,
-    id: '3F09FE4768EC0E888A6C',
-    participant: undefined
-  },
-  messageTimestamp: 1751398638,
-  pushName: 'Yorman Aular',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Yorman Aular',
-      contextInfo: [ContextInfo]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Yorman Aular',
-  from: '573108063653'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_3d6016bd-f71c-4fc6-9fb8-2d385a633087',
-  keyword: 'ans_ec105f62-13e2-4a72-8677-36ec7b6cb549',
-  answer: '__call_action__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'e004db33d112b1f278604f91e2d23072'
+  refSerialize: 'a05513a6166b8b104b354f27656df54e'
 }

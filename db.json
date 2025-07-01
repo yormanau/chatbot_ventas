@@ -1,15 +1,15 @@
 [
   {
-    "ref": "d7373a11-46c5-4040-9542-687a1db39c08",
-    "keyword": "bfcf491ac8214f5df6840977746ad804",
-    "answer": "Hola",
+    "ref": "ed033a0f-e66e-4dd5-9246-ea2fd20e2cd3",
+    "keyword": "3f702249a77757b4f0ae9b445438ab43",
+    "answer": "hola",
     "options": {},
     "from": "573108063653",
-    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_e3983065-3db4-4cdd-a1ad-7d2b1197c57f",
-    "keyword": "key_25f6750e-4400-4e53-9790-e5c39365c2ed",
+    "ref": "ans_24b7b358-1f63-4c98-bd07-719b9c8a3e30",
+    "keyword": "key_14686d2e-e977-4a6b-9910-16319bd666e5",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -23,25 +23,12 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "997c4db31f4098f5693859d022745482",
+    "refSerialize": "a05513a6166b8b104b354f27656df54e",
     "from": "573108063653"
   },
   {
-    "ref": "bea90829-754a-490b-a34a-1f7c09335446",
-    "keyword": null,
-    "answer": "🔄 *¡Hijo mío, hemos actualizado nuestro sistema!*\r\n\r\nDisfruta una mejor experiencia orgásmica con mejoras y novedades en nuestras conexiones digitales.\r\n\r\n*¡Gracias por tu confianza!* 😊\r\n",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573108063653",
-    "refSerialize": "6c59929e4d00e8565c8ebabf6052939a"
-  },
-  {
-    "ref": "ans_073a720f-652e-4343-be35-6203f904634c",
-    "keyword": "key_34f29c2c-578e-402d-8706-81297cd2f37e",
+    "ref": "ans_b3327126-ba25-4a21-a1b1-2f88cb1a74d4",
+    "keyword": "key_be91471e-e83e-401f-9e4e-506ded1561dc",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -55,32 +42,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "b2517609e8257292e3a4c36b696ee4c9",
+    "refSerialize": "1bdd4ee15c2a70b7e99c88cca31020b8",
     "from": "573108063653"
   },
   {
-    "ref": "ans_3b7bbec3-dfd7-487a-a4a0-06ada0307923",
-    "keyword": "ans_073a720f-652e-4343-be35-6203f904634c",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "fd6edf6bbe71b04b7f0e856774f0f520",
-    "from": "573108063653"
-  },
-  {
-    "ref": "40b5f83e-efe6-4830-b655-9572a5a7594c",
+    "ref": "dbd51d16-ae0e-46ee-9d68-780be3f51c4a",
     "keyword": null,
-    "answer": "👋 No estás registrado aún como nuestro discípulo(a).\r\n\r\nPara continuar, compártenos unos datos básicos. 🙌\n\nIndique su edad por favor",
+    "answer": "Hola 👋, *Yorman Aular*  bienvenido(a) a *@LaCeldaDelMonje*, \r\ndónde tú compra es un secreto de confesión. 🤫",
     "options": {
       "media": null,
       "buttons": [],
@@ -88,99 +56,11 @@
       "delay": 0
     },
     "from": "573108063653",
-    "refSerialize": "3897bd57d4536d028afb1b8d7d64308f"
+    "refSerialize": "865b6fce8e0561181ba86c4c139833dc"
   },
   {
-    "ref": "c06f1014-1b1b-469f-a848-9c9d81c6643f",
-    "keyword": "fd6edf6bbe71b04b7f0e856774f0f520",
-    "answer": "23",
-    "options": {},
-    "from": "573108063653",
-    "refSerialize": "a03d0672ee2363269252d855aec8445e"
-  },
-  {
-    "ref": "e9681655-f717-4bbb-af69-f4d061b7e726",
-    "keyword": null,
-    "answer": "Ahora dinos ¿De qué ciudad nos escribes?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573108063653",
-    "refSerialize": "2e46fe7136fa9b566e8da3cad90dcb92"
-  },
-  {
-    "ref": "ans_05379124-6290-47d0-8be2-b169f609a031",
-    "keyword": "ans_3b7bbec3-dfd7-487a-a4a0-06ada0307923",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "b4d8420a8efa5e76d5fc444dcd011c04",
-    "from": "573108063653"
-  },
-  {
-    "ref": "0ca23bfc-6c85-4ab7-b04b-3415d6c7b831",
-    "keyword": "b4d8420a8efa5e76d5fc444dcd011c04",
-    "answer": "bogota",
-    "options": {},
-    "from": "573108063653",
-    "refSerialize": "7251e260fdb527450e07f3d92d9a7797"
-  },
-  {
-    "ref": "c0aaa1c9-3417-4f85-b900-78af1a498ad3",
-    "keyword": null,
-    "answer": "Indícanos tú nombre y apellido.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573108063653",
-    "refSerialize": "bac1cf522f228f6572362b3bc693e186"
-  },
-  {
-    "ref": "ans_ec105f62-13e2-4a72-8677-36ec7b6cb549",
-    "keyword": "ans_05379124-6290-47d0-8be2-b169f609a031",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3ebf9593be249969e0382e8419553ca8",
-    "from": "573108063653"
-  },
-  {
-    "ref": "41773d9c-133a-426a-b605-f306e9d4cb5f",
-    "keyword": "3ebf9593be249969e0382e8419553ca8",
-    "answer": "Yorman Aular",
-    "options": {},
-    "from": "573108063653",
-    "refSerialize": "1ecf82a8068e59c81f3cecdfe31325b0"
-  },
-  {
-    "ref": "ans_3d6016bd-f71c-4fc6-9fb8-2d385a633087",
-    "keyword": "ans_ec105f62-13e2-4a72-8677-36ec7b6cb549",
+    "ref": "ans_a0368003-ab80-4919-828c-2961b095aaca",
+    "keyword": "key_bf498815-1014-4abe-a1f4-b121fdbecccc",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -194,43 +74,11 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "e004db33d112b1f278604f91e2d23072",
+    "refSerialize": "6cc75f4cc975912cd80e74b317ef0bde",
     "from": "573108063653"
   },
   {
-    "ref": "b24a4bbe-4765-4a0b-98bb-d8c7c9fbb6c7",
-    "keyword": null,
-    "answer": "🔔 ¡Ahora sí! *Yorman Aular*\n Ya formas parte de los discípulos del monasterio erótico *La Celda Del Monje* 🧘‍♂️💋\n\nIndícanos en qué te podemos ayudar 😏",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573108063653",
-    "refSerialize": "30edf88a15795e858dcc82679d89e8d2"
-  },
-  {
-    "ref": "ans_326f68dc-8999-4541-b7d3-bc1d31bb5a2f",
-    "keyword": "key_bc4db6f9-edb4-413d-a1e0-b45e6889e3b6",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3f702249a77757b4f0ae9b445438ab43",
-    "from": "573108063653"
-  },
-  {
-    "ref": "037b7960-9d8c-46cb-a68a-9d96cfb7caaa",
+    "ref": "a096e215-814d-486a-9814-445083307817",
     "keyword": null,
     "answer": "👤 Te atenderá nuestro Abad *El Monje*, escríbele tus inquietudes.",
     "options": {

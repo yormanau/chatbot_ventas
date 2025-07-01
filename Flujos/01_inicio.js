@@ -32,7 +32,7 @@ const flujo_inicio = addKeyword(EVENTS.WELCOME)
                 return gotoFlow(flujo_bienvenida)
             } else {
 
-                const duracion_escritura = Math.min(Mensaje('actualizacion.txt').length * 400, 5000);
+                const duracion_escritura = Math.min(Mensaje('actualizacion.txt').length * 400, 3000);
                 await new Promise(resolve => setTimeout(resolve, 1500))
                 // Responde citando el mensaje original
                 await wa.sendPresenceUpdate('composing', numero);

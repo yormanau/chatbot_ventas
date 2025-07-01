@@ -15,7 +15,7 @@ const flujo_registrar = addKeyword(EVENTS.ACTION)
     .addAction(async (ctx, { flowDynamic }) => {
         const wa = await waitForBaileysInstance(adapterProvider)
         const numero = ctx.from + '@s.whatsapp.net'
-        const duracion_escritura = Math.min(`${Mensaje('no_registrado.txt')}\n\nIndique su edad por favor`.length * 400, 5000);
+        const duracion_escritura = Math.min(`${Mensaje('no_registrado.txt')}\n\nIndique su edad por favor`.length * 400, 3000);
 
         await new Promise(resolve => setTimeout(resolve, 1500))
         // Responde citando el mensaje original
@@ -29,7 +29,7 @@ const flujo_registrar = addKeyword(EVENTS.ACTION)
         async (ctx, { state, flowDynamic, endFlow, fallBack }) => {
             const wa = await waitForBaileysInstance(adapterProvider)
             const numero = ctx.from + '@s.whatsapp.net'
-            const duracion_escritura = Math.min(`Ahora dinos ¿De qué ciudad nos escribes?`.length * 400, 5000);
+            const duracion_escritura = Math.min(`Ahora dinos ¿De qué ciudad nos escribes?`.length * 400, 3000);
 
             const edad_str = ctx.body.trim().toLowerCase();
             const edad = extraer_numero(edad_str)
@@ -60,7 +60,7 @@ const flujo_registrar = addKeyword(EVENTS.ACTION)
         async (ctx, { state, flowDynamic }) => {
             const wa = await waitForBaileysInstance(adapterProvider)
             const numero = ctx.from + '@s.whatsapp.net'
-            const duracion_escritura = Math.min('Indícanos tú nombre y apellido.'.length * 400, 5000);
+            const duracion_escritura = Math.min('Indícanos tú nombre y apellido.'.length * 400, 3000);
 
             const ciudad = ctx.body.trim().toLowerCase();
             await state.update({ciudad: ciudad})
@@ -108,7 +108,7 @@ const flujo_registrar = addKeyword(EVENTS.ACTION)
         const wa = await waitForBaileysInstance(adapterProvider)
         const numero = ctx.from + '@s.whatsapp.net'
         const duracion_escritura = Math.min(`🔔 ¡Ahora sí! *${mayuscula(info.nombres_usuario)}*
-        Ya formas parte de los discípulos del monasterio erótico *La Celda Del Monje* 🧘‍♂️💋\n\nIndícanos en qué te podemos ayudar 😏`.length * 400, 5000);
+        Ya formas parte de los discípulos del monasterio erótico *La Celda Del Monje* 🧘‍♂️💋\n\nIndícanos en qué te podemos ayudar 😏`.length * 400, 3000);
         await wa.sendPresenceUpdate('composing', numero);
         await new Promise(resolve => setTimeout(resolve, duracion_escritura))
         await flowDynamic(`🔔 ¡Ahora sí! *${mayuscula(info.nombres_usuario)}*

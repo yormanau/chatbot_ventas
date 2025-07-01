@@ -7,7 +7,7 @@ const flujo_humano = addKeyword(['humano', 'asesor', 'hablar con alguien'])
     .addAction(async (ctx, { state, flowDynamic }) => {
         const wa = await waitForBaileysInstance(adapterProvider)
         const numero = ctx.from + '@s.whatsapp.net'
-        const duracion_escritura = Math.min('👤 Te atenderá nuestro Abad *El Monje*, escríbele tus inquietudes.'.length * 400, 5000);
+        const duracion_escritura = Math.min('👤 Te atenderá nuestro Abad *El Monje*, escríbele tus inquietudes.'.length * 400, 3000);
 
         await state.update({ bot_pausado: true });
         await new Promise(resolve => setTimeout(resolve, 1500))

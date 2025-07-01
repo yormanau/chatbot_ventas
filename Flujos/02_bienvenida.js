@@ -9,7 +9,7 @@ const flujo_bienvenida = addKeyword(EVENTS.ACTION)
     .addAction(async (ctx, { state, flowDynamic, gotoFlow }) => {
         const wa = await waitForBaileysInstance(adapterProvider)
         const numero = ctx.from + '@s.whatsapp.net'
-        const duracion_escritura = Math.min(Mensaje('bienvenida.txt').length * 400, 5000);
+        const duracion_escritura = Math.min(Mensaje('bienvenida.txt').length * 400, 3000);
         await new Promise(resolve => setTimeout(resolve, 1500))
         // Responde citando el mensaje original
         await wa.sendPresenceUpdate('composing', numero);
