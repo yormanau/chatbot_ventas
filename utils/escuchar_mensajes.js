@@ -1,14 +1,4 @@
-/*
-const waitForBaileysInstance = async (provider, maxAttempts = 10000, delay = 500) => {
-    for (let attempt = 1; attempt <= maxAttempts; attempt++) {
-        const wa = await provider.getInstance();
-        if (wa && wa.ev) return wa;
 
-        console.log(`⏳ Esperando instancia de Baileys... intento ${attempt}`);
-        await new Promise(res => setTimeout(res, delay));
-    }
-    throw new Error('❌ No se pudo obtener la instancia de Baileys después de varios intentos');
-};*/
 const waitForBaileysInstance = async (provider, delay = 500) => {
     let yaMostroLog = false; // Para asegurarnos de mostrar el log solo una vez
 
@@ -32,6 +22,14 @@ const escuchar_mensajes = async (provider, bot) => {
       
         wa.ev.on('messages.upsert', async (msg) => {
             const mensaje = msg.messages?.[0];
+            const remoteJid = mensaje?.key?.remoteJid;
+
+            // Ignorar mensajes de grupos
+            if (remoteJid?.endsWith('@g.us')) {
+                //console.log('🚫 Mensaje de grupo ignorado:', remoteJid);
+                return;
+            }
+            
             const numero = mensaje?.key?.remoteJid;
             const texto = mensaje?.message?.conversation || mensaje?.message?.extendedTextMessage?.text;
             const esDelBot = mensaje?.key?.fromMe;

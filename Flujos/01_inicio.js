@@ -10,6 +10,7 @@ const { mayuscula } = require('../utils/strings/mayuscula.js')
 const flujo_inicio = addKeyword(EVENTS.WELCOME)
     .addAction(async (ctx, { gotoFlow, state, flowDynamic }) => {
         try {
+           
             const info = await state.getMyState() || {};
             const pausado = info.bot_pausado || false;
 

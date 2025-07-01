@@ -1,15 +1,15 @@
 [
   {
-    "ref": "64d2cb22-e7f3-4b3d-93f5-7b19c9bb0e77",
-    "keyword": "d4292542bb2b3a047d770761e10fdb01",
+    "ref": "c4eaf52d-1fb9-46e4-b59e-3235a3f90475",
+    "keyword": "0984e2d163743515d91c8d38d1d96fec",
     "answer": "hola",
     "options": {},
     "from": "573108063653",
     "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_62b1286e-c72e-4677-bdcb-e4d311a743cb",
-    "keyword": "key_79bf0613-7764-4504-862b-146803362feb",
+    "ref": "ans_3285c192-6c45-448a-8033-f1393ee13ae7",
+    "keyword": "key_00f1fdf4-f9ea-4ec4-8b97-1c8dca80dbdc",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -23,12 +23,12 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "88c6f404631b527af40d438d5fc2ebcc",
+    "refSerialize": "57b085bd73a46fadf1c1068e4e1e52ca",
     "from": "573108063653"
   },
   {
-    "ref": "ans_6f7d30a4-15b0-4bb7-b2c0-2862ae07ca1d",
-    "keyword": "key_e71f1de3-7f43-4c1b-8086-94e692b75325",
+    "ref": "ans_1af627f9-67ff-4b92-b58a-1f2e2c28c5db",
+    "keyword": "key_4e608959-2ed4-4e0d-8cf3-a96f37a0ed13",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -42,11 +42,11 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "1cef3e1a67d3d11b15cfdce3de36578e",
+    "refSerialize": "6517cd4fc95fc5b08e8e762ceacef009",
     "from": "573108063653"
   },
   {
-    "ref": "d4a0e2c0-5724-410d-bd1c-0dcdce59cf16",
+    "ref": "55f37021-a5cc-4498-8ac8-d2ed4338124e",
     "keyword": null,
     "answer": "Hola 👋, *Yorman Aular*  bienvenido(a) a *@LaCeldaDelMonje*, \r\ndónde tú compra es un secreto de confesión. 🤫",
     "options": {
@@ -59,8 +59,8 @@
     "refSerialize": "865b6fce8e0561181ba86c4c139833dc"
   },
   {
-    "ref": "ans_99dcad2d-938e-414e-baaa-dfadd32e7ccf",
-    "keyword": "key_d56b6a01-8456-4375-bc83-59c7a8981f9f",
+    "ref": "ans_6b97851e-f33c-4181-9399-6153d6dd1f0e",
+    "keyword": "key_5fd6219e-815a-4266-a60f-43fa53f08e21",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -74,11 +74,11 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "107fb2b1688fb8b6fd4aa91caed1f0c4",
+    "refSerialize": "a6c7ab0ab3dd55c540811115e81b4ca5",
     "from": "573108063653"
   },
   {
-    "ref": "90ce205f-6402-4601-a6e1-f14c195923ca",
+    "ref": "629159d7-7ab4-4fa5-a363-ea2865f431a1",
     "keyword": null,
     "answer": "👤 Te atenderá nuestro Abad *El Monje*, escríbele tus inquietudes.",
     "options": {
@@ -89,32 +89,5 @@
     },
     "from": "573108063653",
     "refSerialize": "4d3e2d9e8b0d82e577a79efda871af88"
-  },
-  {
-    "ref": "4a68069d-bed6-4421-b5fc-eb77b4f27244",
-    "keyword": "107fb2b1688fb8b6fd4aa91caed1f0c4",
-    "answer": "Nos alegra mucho haberte ayudado a llegar al clímax que tanto deseas. 😊 Damos por finalizada la conversación 👋, te esperamos nuevamente",
-    "options": {},
-    "from": "573108063653",
-    "refSerialize": "b0da30f88efe785d8f56fa37db352cee"
-  },
-  {
-    "ref": "ans_62b1286e-c72e-4677-bdcb-e4d311a743cb",
-    "keyword": "key_79bf0613-7764-4504-862b-146803362feb",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "88c6f404631b527af40d438d5fc2ebcc",
-    "from": "573108063653"
   }
 ]
