@@ -6,4 +6,7 @@ function extraer_numero(texto) {
     const match = texto.match(/\d+/); // busca uno o más dígitos
     return match ? parseInt(match[0]) : null;
 }
+
+
+
 module.exports = {es_numero, extraer_numero};

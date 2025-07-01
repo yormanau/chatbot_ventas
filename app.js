@@ -4,9 +4,9 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const adapterProvider = createProvider(BaileysProvider)
 const MockAdapter = require('@bot-whatsapp/database/json')
-const escuchar_mensajes = require('./utils/escuchar_mensajes.js')
+const { escuchar_mensajes } = require('./utils/escuchar_mensajes.js')
 const { syncData } = require('./utils/sheets.js')
-
+module.exports = adapterProvider;
 syncData()
 
 // Importar flujos

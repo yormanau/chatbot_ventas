@@ -36,6 +36,30 @@ const escuchar_mensajes = async (provider, bot) => {
         
             //if (!texto) return;
             if (!texto || typeof texto !== 'string') return;
+            // ✅ Reaccionar si el usuario dice "gracias"
+            if (!esDelBot && texto?.toLowerCase().includes('gracias')) {
+                const tiempoPorCaracter = 400; // milisegundos
+                const texto = '¡De nada! 😊 Estamos para ayudarte.'
+                // Simular "escribiendo" proporcional al texto
+                const duracion_escritura = Math.min(texto.length * tiempoPorCaracter, 5000);
+                // Reacciona con un emoji ❤️ al mensaje original
+                await new Promise(resolve => setTimeout(resolve, 1500))
+                await wa.sendMessage(numero, {
+                    react: {
+                        text: '❤️',
+                        key: mensaje.key
+                    }
+                });
+                await new Promise(resolve => setTimeout(resolve, 3000))
+                // Responde citando el mensaje original
+                await wa.sendPresenceUpdate('composing', numero);
+                await new Promise(resolve => setTimeout(resolve, duracion_escritura))
+                await wa.sendMessage(numero, {
+                    text: texto,
+                }, { quoted: mensaje });
+
+                console.log(`✅ Reacción y respuesta enviada al mensaje: "${texto}"`);
+            }
 
             const frase_clave = 'Nos alegra mucho haberte ayudado a llegar al clímax que tanto deseas. 😊 Damos por finalizada la conversación 👋, te esperamos nuevamente'
     
@@ -68,4 +92,4 @@ const escuchar_mensajes = async (provider, bot) => {
     }
 }
 
-module.exports = escuchar_mensajes;
+module.exports = {escuchar_mensajes, waitForBaileysInstance};
