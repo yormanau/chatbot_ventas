@@ -41,7 +41,7 @@ const escuchar_mensajes = async (provider, bot) => {
                 const tiempoPorCaracter = 400; // milisegundos
                 const texto = '¡De nada! 😊 Estamos para ayudarte.'
                 // Simular "escribiendo" proporcional al texto
-                const duracion_escritura = Math.min(texto.length * tiempoPorCaracter, 5000);
+                const duracion_escritura = Math.min(texto.length * tiempoPorCaracter, 3000);
                 // Reacciona con un emoji ❤️ al mensaje original
                 await new Promise(resolve => setTimeout(resolve, 1500))
                 await wa.sendMessage(numero, {

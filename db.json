@@ -1,15 +1,15 @@
 [
   {
-    "ref": "ed033a0f-e66e-4dd5-9246-ea2fd20e2cd3",
-    "keyword": "3f702249a77757b4f0ae9b445438ab43",
+    "ref": "ece183f3-e551-43c6-bd39-1612e30b7fcb",
+    "keyword": "6cc75f4cc975912cd80e74b317ef0bde",
     "answer": "hola",
     "options": {},
     "from": "573108063653",
     "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_24b7b358-1f63-4c98-bd07-719b9c8a3e30",
-    "keyword": "key_14686d2e-e977-4a6b-9910-16319bd666e5",
+    "ref": "ans_6bed539b-7473-4ff6-9744-442ff0e44d88",
+    "keyword": "key_5a714965-d841-4343-8a7c-b6009143ad44",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -23,32 +23,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "a05513a6166b8b104b354f27656df54e",
+    "refSerialize": "07008bf12829a02c41987f42a88816b8",
     "from": "573108063653"
   },
   {
-    "ref": "ans_b3327126-ba25-4a21-a1b1-2f88cb1a74d4",
-    "keyword": "key_be91471e-e83e-401f-9e4e-506ded1561dc",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "1bdd4ee15c2a70b7e99c88cca31020b8",
-    "from": "573108063653"
-  },
-  {
-    "ref": "dbd51d16-ae0e-46ee-9d68-780be3f51c4a",
+    "ref": "1668f779-20be-41dc-a733-9ec8d535a7cd",
     "keyword": null,
-    "answer": "Hola 👋, *Yorman Aular*  bienvenido(a) a *@LaCeldaDelMonje*, \r\ndónde tú compra es un secreto de confesión. 🤫",
+    "answer": "🔄 *¡Hijo mío, hemos actualizado nuestro sistema!*\r\n\r\nDisfruta una mejor experiencia orgásmica con mejoras y novedades en nuestras conexiones digitales.\r\n\r\n*¡Gracias por tu confianza!* 😊\r\n",
     "options": {
       "media": null,
       "buttons": [],
@@ -56,11 +37,11 @@
       "delay": 0
     },
     "from": "573108063653",
-    "refSerialize": "865b6fce8e0561181ba86c4c139833dc"
+    "refSerialize": "6c59929e4d00e8565c8ebabf6052939a"
   },
   {
-    "ref": "ans_a0368003-ab80-4919-828c-2961b095aaca",
-    "keyword": "key_bf498815-1014-4abe-a1f4-b121fdbecccc",
+    "ref": "ans_fd9fee31-9f33-4bbd-9651-c3bf37081bac",
+    "keyword": "key_f1d2ca48-fba0-437d-945d-ddcac83595b1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -74,13 +55,32 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "6cc75f4cc975912cd80e74b317ef0bde",
+    "refSerialize": "c3b30d7ac1daacc5eee3057947c5110b",
     "from": "573108063653"
   },
   {
-    "ref": "a096e215-814d-486a-9814-445083307817",
+    "ref": "ans_9c91718b-630f-421a-a26a-a949029c6cc6",
+    "keyword": "ans_fd9fee31-9f33-4bbd-9651-c3bf37081bac",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f13a6bd092265e839b177f5c371a485f",
+    "from": "573108063653"
+  },
+  {
+    "ref": "b803fd6b-7a96-4850-9da3-b610789775a6",
     "keyword": null,
-    "answer": "👤 Te atenderá nuestro Abad *El Monje*, escríbele tus inquietudes.",
+    "answer": "👋 No estás registrado aún como nuestro discípulo(a).\r\n\r\nPara continuar, compártenos unos datos básicos. 🙌\n\nIndique su edad por favor",
     "options": {
       "media": null,
       "buttons": [],
@@ -88,6 +88,6 @@
       "delay": 0
     },
     "from": "573108063653",
-    "refSerialize": "4d3e2d9e8b0d82e577a79efda871af88"
+    "refSerialize": "3897bd57d4536d028afb1b8d7d64308f"
   }
 ]
