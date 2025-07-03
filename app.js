@@ -15,19 +15,7 @@ const flujo_bienvenida = require('./Flujos/02_bienvenida.js')
 const flujo_registrar = require('./Flujos/03_registrar.js')
 const flujo_humano = require('./Flujos/humano.js')
 const flujo_activar = require('./Flujos/humano.js')
-const express = require('express');
-const app = express();
 
-// Middleware y rutas aquí
-app.get('/', (req, res) => {
-  res.send('¡Hola desde Railway!');
-});
-
-// 👇 ESTE BLOQUE es esencial para que Railway no termine el proceso
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en puerto ${PORT}`);
-});
 
 const main = async () => {
     const adapterDB = new MockAdapter()
@@ -46,7 +34,7 @@ const main = async () => {
     })
     
 
-    QRPortalWeb()
+    QRPortalWeb({ port: process.env.PORT || 3000 })
    
     escuchar_mensajes(adapterProvider, bot);
 }
