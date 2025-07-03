@@ -17,6 +17,7 @@
         "@bot-whatsapp/provider": "latest",
         "@whiskeysockets/baileys": "6.5.0",
         "cache-manager": "5.2.4",
+        "express": "^5.1.0",
         "googleapis": "^150.0.1",
         "node-cron": "^4.1.1",
         "wa-sticker-formatter": "4.4.4"
